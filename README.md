@@ -1,7 +1,7 @@
 # test.form確認テスト＿お問合せフォーム
 ## 環境構築
 # リポジトリをクローン
-- git clone
+- git@github.com:matsue1157/test.form.git
 - cd Contact.form
 # dockerの設定
 - docker-compose up -d --build
