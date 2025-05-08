@@ -1,0 +1,101 @@
+.search-form {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    font-family: 'Inika', sans-serif;
+}
+
+.search-group {
+    position: absolute;
+    width: 917.01px;
+    height: 50px;
+    left: 164px;
+    top: 215px;
+    display: flex;
+    gap: 10px;
+}
+
+/* 名前やメールアドレス */
+.input-name {
+    width: 347.47px;
+    height: 100%;
+    background: #FBFBFB;
+    border: 1px solid #E3DED9;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #BEB1A6;
+}
+
+/* 性別 */
+.select-gender {
+    width: 102.48px;
+    height: 100%;
+    background: #F4F4F4;
+    border: 1px solid #E3DED9;
+    padding: 0 10px;
+    font-size: 17px;
+    color: #8B7969;
+    appearance: none;
+}
+
+/* お問い合わせの種類 */
+.select-category {
+    width: 223.04px;
+    height: 100%;
+    background: #F4F4F4;
+    border: 1px solid #E3DED9;
+    padding: 0 10px;
+    font-size: 17px;
+    color: #8B7969;
+    appearance: none;
+}
+
+/* 年月日 */
+.date-range {
+    width: 224.02px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F4F4F4;
+    border: 1px solid #E3DED9;
+    padding: 0 10px;
+}
+
+.date-range input {
+    width: 45%;
+    border: none;
+    font-size: 16px;
+    color: #8B7969;
+}
+
+.form-group.date input {
+    width: 48%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #8B7969;
+}
+
+/* 検索/リセットボタン */
+.form-group.actions {
+    position: absolute;
+    left: 1100px;
+    top: 215px;
+}
+
+.form-group.actions button {
+    background-color: #8B7969;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-group.actions a {
+    margin-left: 10px;
+    text-decoration: underline;
+    color: #8B7969;
+}

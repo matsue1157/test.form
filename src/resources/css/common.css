@@ -1,0 +1,61 @@
+/* ヘッダー全体 */
+.header {
+    width: 100%;
+    max-width: 1512px;
+    height: 99px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    /* ← fixed をやめる */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* clearfix（floatをクリアするため） */
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ロゴ */
+.header__logo {
+    float: left;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 99px;
+    /* 垂直中央揃え */
+    color: #8B7969;
+}
+
+/* ナビゲーション */
+.header__nav {
+    float: right;
+    height: 99px;
+    line-height: 99px;
+    /* 垂直中央揃え */
+}
+
+.header__nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header__nav a {
+    font-size: 18px;
+    color: #D9C6B5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header__nav a:hover {
+    color: #4c6ef5;
+}
+
+/* float を使ってロゴを左寄せ、ナビゲーションを右寄せし、line-height を使って縦の中央揃え */

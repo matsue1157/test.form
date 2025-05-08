@@ -1,0 +1,88 @@
+/* 中央配置用 */
+.rectangle-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+
+/* カード全体 */
+.card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* ヘッダー */
+.card-header {
+    font-family: 'Inika', serif;
+    font-size: 28px;
+    color: #8B7969;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* メール入力グループ */
+.group-93 {
+    margin-bottom: 20px;
+}
+
+.email-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rectangle-141 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* パスワード入力 */
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* エラーメッセージ */
+.invalid-feedback {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* ボタン */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #82756A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #6b5b44;
+}

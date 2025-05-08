@@ -1,0 +1,49 @@
+/* Header 全体 */
+.header {
+    position: absolute;
+    width: 1512px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    background-color: white;
+    /* 必要なら背景色を設定 */
+}
+
+/* ロゴテキスト "FashionablyLate" */
+.header__logo {
+    position: absolute;
+    width: 1509.01px;
+    height: 100px;
+    left: 2.99px;
+    top: 0;
+
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 中央寄せしたい場合 */
+    text-align: center;
+
+    color: #8B7969;
+    text-decoration: none;
+}
+
+/* ヘッダー下のライン */
+.header::after {
+    content: "";
+    position: absolute;
+    width: 1512px;
+    height: 0px;
+    left: 0;
+    top: 100px;
+
+    border-bottom: 1px solid #E0DFDE;
+}
+main {
+    margin-top: 120px;
+    /* ヘッダーの高さ（100px）より少し大きめが安全 */
+}
